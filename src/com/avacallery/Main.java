@@ -20,15 +20,19 @@ public class Main {
 
         MyHand roll1 = new MyHand();
         DieValue[] myHand = roll1.rollDice();
+        System.out.println("First roll: ");
         for ( int i = 0; i < myHand.length; i++)
-        System.out.print(myHand[i].numberOnDie + " ");
-
-        // reroll first die
-        myHand[0].rollDie();
+            System.out.print(myHand[i].numberOnDie + " ");
 
         System.out.println();
+        System.out.println("Second roll (re-roll 1st die): ");
+        myHand[0].rollDie();
+        for ( int i = 0; i < myHand.length; i++)
+            System.out.print(myHand[i].numberOnDie + " ");
 
-
+        System.out.println();
+        System.out.println("Third roll (re-roll 3rd die): ");
+        myHand[2].rollDie();
         for ( int i = 0; i < myHand.length; i++)
             System.out.print(myHand[i].numberOnDie + " ");
     }

@@ -1,12 +1,9 @@
 package com.avacallery;
 
-import java.util.Random;
-
 // hand contains 5 die values -> has a relationship, not is a
 
 public class MyHand {
     public DieValue[] dice;
-    Random value = new Random();
 
     // create hand with x number of dice
     public MyHand() {
