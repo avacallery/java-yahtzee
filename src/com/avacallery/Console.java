@@ -39,6 +39,7 @@ public class Console {
     }
 
     static public List<Integer> getUserChoices() {
+        System.out.print("Enter dice to re-roll 1-5. (Ex: 1 2 3) --> ");
         String input = scanner.nextLine();
         // input error checking/range/no entry
         // input expectation x y z
@@ -48,7 +49,7 @@ public class Console {
         List<Integer> choices = new ArrayList<Integer>();
         for (String number : inputArray) {
             //loop and parse to the choices List
-            choices.add(Integer.parseInt(number));
+            choices.add(Integer.parseInt(number) - 1);
         }
         return choices; // <1, 2, 3>
     }
