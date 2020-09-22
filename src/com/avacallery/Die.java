@@ -5,10 +5,11 @@ import java.util.Random;
 public class Die {
     // have field that represents what number die it is
     private int numberOnDie;
-    private int sides;
+    private int sides = 6;
 
-    public Die(int sides) {
-        this.sides = sides;
+    public Die() {
+//        this.sides = sides;
+        // starting number set to 1
         this.numberOnDie = 1;
     }
 

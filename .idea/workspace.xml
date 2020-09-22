@@ -4,10 +4,10 @@
     <list default="true" id="9a01226d-37c8-4541-bee7-13c0989ccfba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/Console.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/DieValue.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/MyHand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/MyHand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/avacallery/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avacallery/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avacallery/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avacallery/Die.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/avacallery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avacallery/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/avacallery/MyHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avacallery/MyHand.java" afterDir="false" />
     </list>
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/avacallery/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="312">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,9 +48,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avacallery/Console.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="273">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
@@ -65,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avacallery/Die.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#206#207#0" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
@@ -80,14 +81,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avacallery/MyHand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="299">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#795#796#0" expanded="true" />
                 <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,10 +120,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="420" />
+    <option name="x" value="591" />
     <option name="y" value="23" />
-    <option name="width" value="759" />
-    <option name="height" value="807" />
+    <option name="width" value="860" />
+    <option name="height" value="755" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -201,7 +203,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="420" y="23" width="759" height="807" extended-state="0" />
+    <frame x="591" y="23" width="860" height="755" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -209,15 +211,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14783822" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12958436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.11608391" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.26061493" />
+      <window_info anchor="bottom" id="Messages" weight="0.26013985" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32650074" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27552447" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29713425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -233,10 +235,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/avacallery/RollDice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avacallery/Die.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#206#207#0" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
@@ -246,18 +255,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avacallery/RollDice.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avacallery/MyHand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="299">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avacallery/Console.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        <state relative-caret-position="273">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
@@ -268,24 +286,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avacallery/MyHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avacallery/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="312">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

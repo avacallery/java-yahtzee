@@ -4,6 +4,8 @@ import com.avacallery.Console;
 import com.avacallery.Die;
 import com.avacallery.MyHand;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 // create die class and give all the properties/methods it needs
@@ -19,15 +21,17 @@ public class Main {
     public static void main(String[] args) {
         Random random = new Random();
 
-        Die die = new Die(6);
-        System.out.println(die.getNumberOnDie());
-        die.dieValue(random);
-        System.out.println(die.getNumberOnDie());
-        die.dieValue(random);
-        System.out.println(die.getNumberOnDie());
-        die.dieValue(random);
-        System.out.println(die.getNumberOnDie());
-        die.dieValue(random);
+        MyHand hand = new MyHand(5);
+
+        Console.showDice(hand.getDice());
+
+        hand.rollDice(random, new ArrayList<>(Arrays.asList(1, 3, 0)));
+
+        Console.showDice(hand.getDice());
+
+        hand.rollDice(random, new ArrayList<>(Arrays.asList(2, 4, 1)));
+
+        Console.showDice(hand.getDice());
 
     }
 }
