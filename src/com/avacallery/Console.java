@@ -3,7 +3,19 @@ package com.avacallery;
 import java.util.Scanner;
 
 public class Console {
-    private static Scanner scanner = new Scanner(System.in);
+    // static class, NOT dynamic -> all methods in this class are static
+    // variables do not need to be instantiated here
+    static Scanner scanner = new Scanner(System.in);
+
+    public void startGame() {
+        System.out.println("Welcome to Yahtzee!");
+    }
+
+    public void log(String output) {
+        System.out.println(output);
+    }
+
+
 
     // user types "START", returns array of dice
     // prompt: "Roll 2: Which die would you like to re-roll?"
