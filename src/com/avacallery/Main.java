@@ -1,10 +1,5 @@
 package com.avacallery;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
-
 // create die class and give all the properties/methods it needs
 // properties of die: randomizer? Number of sides?
 // write method for hand to roll and reroll

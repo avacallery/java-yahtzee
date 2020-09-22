@@ -3,18 +3,19 @@ package com.avacallery;
 // hand contains 5 die values -> has a relationship, not is a
 
 public class MyHand {
-    public DieValue[] dice;
+    private Die[] dice;
 
     // create hand with x number of dice
-    public MyHand() {
+    public MyHand(int size) {
         // this creates the space for 5 dice to be assigned to
         // hand contains 5 die values
-       dice = new DieValue[5];
+        for (int numberOfSides = 0; numberOfSides < size; numberOfSides++)
+       dice = new Die[5];
     }
 
-    public DieValue[] rollDice() {
+    public Die[] rollDice() {
         for (int i = 0; i < dice.length; i++) {
-            DieValue die = new DieValue();
+            Die die = new Die();
             dice[i] = die;
             dice[i].rollDie();
         }
