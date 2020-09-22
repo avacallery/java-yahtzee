@@ -23,13 +23,15 @@ public class Main {
 
         MyHand hand = new MyHand(5);
 
-        Console.showDice(hand.getDice());
-
-        hand.rollDice(random, new ArrayList<>(Arrays.asList(1, 3, 0)));
+        hand.rollDice(random);
 
         Console.showDice(hand.getDice());
 
-        hand.rollDice(random, new ArrayList<>(Arrays.asList(2, 4, 1)));
+        hand.rollDice(random, Console.getUserChoices());
+
+        Console.showDice(hand.getDice());
+
+        hand.rollDice(random, Console.getUserChoices());
 
         Console.showDice(hand.getDice());
 

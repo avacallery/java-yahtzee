@@ -18,17 +18,10 @@ public class MyHand {
        dice.add(new Die());
     }
 
-//    public Die[] rollDice() {
-//        for (int i = 0; i < dice.length; i++) {
-//            Die die = new Die();
-//            dice[i] = die;
-//            dice[i].rollDie();
-//        }
-//        return dice;
-//    }
-
     public void rollDice(Random random) {
-        dice.get(0).dieValue(random);
+       for (var die : dice) {
+           die.dieValue(random);
+       }
     }
 
     public void rollDice(Random random, int specificDie) {

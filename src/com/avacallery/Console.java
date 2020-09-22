@@ -1,5 +1,6 @@
 package com.avacallery;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.List;
 
@@ -37,4 +38,18 @@ public class Console {
         System.out.println("\n");
     }
 
+    static public List<Integer> getUserChoices() {
+        String input = scanner.nextLine();
+        // input error checking/range/no entry
+        // input expectation x y z
+        // split on the spaces
+        String[] inputArray = input.split(" ");
+        // create array of user input ints
+        List<Integer> choices = new ArrayList<Integer>();
+        for (String number : inputArray) {
+            //loop and parse to the choices List
+            choices.add(Integer.parseInt(number));
+        }
+        return choices; // <1, 2, 3>
+    }
 }
