@@ -1,6 +1,7 @@
 package com.avacallery;
 
 // hand contains 5 die values -> has a relationship, not is a
+// CREATE 5 DICE
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,8 +27,8 @@ public class MyHand {
 //        return dice;
 //    }
 
-    public void rollDice(Random random, selected) {
-        dice.get(0).roll(random);
+    public void rollDice(Random random) {
+        dice.get(0).dieValue(random);
     }
 
     public List<Die> getDice() {

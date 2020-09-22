@@ -7,11 +7,15 @@ public class Console {
     // variables do not need to be instantiated here
     static Scanner scanner = new Scanner(System.in);
 
-    public void startGame() {
+    static public void startGame() {
         System.out.println("Welcome to Yahtzee!");
     }
 
-    public void log(String output) {
+    static public void log(String output) {
+        System.out.println(output);
+    }
+
+    static public void log(int output) {
         System.out.println(output);
     }
 
