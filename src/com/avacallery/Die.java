@@ -15,6 +15,7 @@ public class Die {
 
 
     public void dieValue(Random random) {
+
         numberOnDie = random.nextInt(sides) + 1;
     }
 

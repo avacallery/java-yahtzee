@@ -19,21 +19,25 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        Random random = new Random();
 
-        MyHand hand = new MyHand(5);
+        //I want to run the playYahtzee method here
 
-        hand.rollDice(random);
+        public void playYahtzee() {
+            Random random = new Random();
 
-        Console.showDice(hand.getDice());
+            MyHand hand = new MyHand(5);
 
-        hand.rollDice(random, Console.getUserChoices());
+            hand.rollDice(random);
 
-        Console.showDice(hand.getDice());
+            Console.showDice(hand.getDice());
 
-        hand.rollDice(random, Console.getUserChoices());
+            hand.rollDice(random, Console.getUserChoices());
 
-        Console.showDice(hand.getDice());
+            Console.showDice(hand.getDice());
 
+            hand.rollDice(random, Console.getUserChoices());
+
+            Console.showDice(hand.getDice());
+        }
     }
 }

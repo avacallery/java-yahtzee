@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MyHand {
+
     private List<Die> dice = new ArrayList<Die>();
 
     // create hand with x number of dice
@@ -19,16 +20,20 @@ public class MyHand {
     }
 
     public void rollDice(Random random) {
+
        for (var die : dice) {
            die.dieValue(random);
+
        }
     }
 
     public void rollDice(Random random, int specificDie) {
+
         dice.get(specificDie).dieValue(random);
     }
 
     public void rollDice(Random random, List<Integer> dieChoices) {
+
         for (int choice : dieChoices) {
             rollDice(random, choice);
         }
@@ -36,6 +41,19 @@ public class MyHand {
     }
 
     public List<Die> getDice() {
+
         return dice;
     }
-}
+
+//
+    public boolean isYahtzee() {
+        int[] yahtzee = new int[dice.get(0).getNumberOnDie()];
+
+        for (int i = 0; i < dice; i++ ) {
+            if (dice[i] == yahtzee) {
+                System.out.println("YAHTZEE");
+                }
+            }
+        }
+    };
+
