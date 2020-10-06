@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a01226d-37c8-4541-bee7-13c0989ccfba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/Console.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/Die.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/Die.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/MyHand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yahtzee/com/avacallery/MyHand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avacallery/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avacallery/Die.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avacallery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avacallery/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avacallery/MyHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avacallery/MyHand.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a01226d-37c8-4541-bee7-13c0989ccfba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/avacallery/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="440">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,12 +180,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.049342107" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29447854" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29447854" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17883755" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36963192" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.26013985" />
@@ -249,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avacallery/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="440">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
