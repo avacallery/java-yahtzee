@@ -1,14 +1,22 @@
 package com.avacallery;
 
+import java.util.Random;
+
 public class Yahtzee {
     public void playYahtzee() {
+        Random random = new Random();
 
-        while(true) {
-            // display game state
-            // ask for input
-            // change state
-            // check if end of game
+        MyHand hand = new MyHand(5);
+        hand.rollDice(random);
+
+        Console.showDice(hand.getDice());
+
+        hand.rollDice(random, Console.getUserChoices());
+
+        Console.showDice(hand.getDice());
+
+        hand.rollDice(random, Console.getUserChoices());
+
+        Console.showDice(hand.getDice());
         }
-        // check score
     }
-}

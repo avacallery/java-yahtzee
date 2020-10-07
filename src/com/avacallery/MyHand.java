@@ -15,8 +15,8 @@ public class MyHand {
     public MyHand(int size) {
         // this creates the space for 5 dice to be assigned to
         // hand contains 5 die values
-        for (int numberOfSides = 0; numberOfSides < size; numberOfSides++)
-       dice.add(new Die());
+        for (int count = 0; count < size; count++)
+            dice.add(new Die());
     }
 
     public void rollDice(Random random) {
@@ -45,15 +45,15 @@ public class MyHand {
         return dice;
     }
 
-//
     public boolean isYahtzee() {
-        int[] yahtzee = new int[dice.get(0).getNumberOnDie()];
+        int yahtzee = dice.get(0).getNumberOnDie();
 
-        for (int i = 0; i < dice; i++ ) {
-            if (dice[i] == yahtzee) {
-                System.out.println("YAHTZEE");
-                }
+        for (int i = 0; i < dice.size(); i++ ) {
+            if (dice.get(i).getNumberOnDie() != yahtzee) {
+                return false;
             }
         }
-    };
+        return true; 
+    }
+};
 
